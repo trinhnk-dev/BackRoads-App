@@ -8,7 +8,12 @@ const PageIcon = ({ parentClass, itemClass }) => {
         const { id, href, icon } = link;
         return (
           <li key={id}>
-            <a href={href} target="_blank" className={itemClass}>
+            <a
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+              className={itemClass}
+            >
               <span dangerouslySetInnerHTML={{ __html: icon }}></span>
             </a>
           </li>
