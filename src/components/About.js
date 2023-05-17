@@ -5,7 +5,7 @@ import aboutIMG from "../images/about.jpeg";
 const About = () => {
   return (
     <section className="section" id="about">
-      <div className="about-title">
+      <div className="section-title">
         <h2>
           About <span>Us</span>
         </h2>
@@ -26,7 +26,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#" className="btn">
+          <a href="#about" className="btn">
             read more
           </a>
         </article>

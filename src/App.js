@@ -11,6 +11,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Services />
+      <Tours />
+      <Footer />
     </>
   );
 }

@@ -43,3 +43,24 @@ Variables
 Global Styles
 ===============
 */
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (min-width: 800px) {
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
