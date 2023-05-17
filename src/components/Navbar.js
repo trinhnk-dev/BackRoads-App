@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
 import logo from "../images/logo.svg";
-import { pageLink } from "../data";
 import PageLinks from "./PageLinks";
 import PageIcon from "./PageIcon";
 

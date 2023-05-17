@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Footer.css";
-import { pageLink } from "../data";
 import PageLinks from "./PageLinks";
 import PageIcon from "./PageIcon";
 
